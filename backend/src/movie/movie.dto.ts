@@ -21,4 +21,7 @@ export class movieDto {
 
   @ApiProperty()
   createdBy: string;
+
 }
+
+// Movie Dto we can use dto because transfer object. 
