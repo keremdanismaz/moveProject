@@ -21,7 +21,7 @@
               "apps/movie-project/src/favicon.ico",
               "apps/movie-project/src/assets"
             ],
-            "styles": ["apps/movie-project/src/styles.scss"],
+            "styles": ["./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css", "apps/movie-project/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -123,6 +123,7 @@
     }
   },
   "cli": {
+    "analytics": false,
     "defaultCollection": "@nrwl/angular",
     "packageManager": "npm"
   },
